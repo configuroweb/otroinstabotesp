@@ -1,0 +1,74 @@
+---
+login: "tu usuario"
+password: "tu pass"
+
+start_at_h: 0
+start_at_m: 0
+end_at_h: 23
+end_at_m: 59
+window_check_every: 60
+
+debug: 0
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
+
+tag_list: ["marketing", "marketingdigital", "digitalmarketing", "marketingonline","marketingtip","marketing360"]
+tag_blacklist: ["sex", "porno","gratis","like4like","siguemeytesigo"]
+
+like_per_day: 196
+max_like_for_one_tag: 36
+media_min_like: 20
+media_max_like: 200
+like_followers_per_run: 90
+
+unlike_per_day: 0
+time_till_unlike: 259200
+
+follow_per_day: 156
+follow_time: 259200
+follow_attempts: 10
+user_min_follow: 200
+user_max_follow: 2200
+
+unfollow_per_day: 199
+unfollow_break_min: 3
+unfollow_break_max: 17
+unfollow_selebgram: false
+unfollow_probably_fake: true
+unfollow_inactive: true
+unfollow_recent_feed: false
+unfollow_whitelist: []
+
+unwanted_username_list: ["gratis", "viajes", "venta", "tienda", "sexo"]
+comments_per_day: 10
+comment_list: [
+        ["esa", "la", "tu"],
+        ["foto", "imagen", "fotografia", "pic", "post"],
+        ["está", "luce", "se siente", "es"],
+        [
+            "grandios@",
+            "súper",
+            "buen@",
+            "muy bueno",
+            "impactante",
+            "Woooooow",
+            "WOOOOW",
+            "Cool",
+            "Grandioso",
+            "magnific@",
+            "mágico",
+            "muy cool",
+            "de mucho estilo",
+            "hermos@",
+            "muy hermoso",
+            "muy profesional",
+            "adorable",
+            "muy adorable",
+            "totalmente adorable",
+            "glorios@",
+            "muy glorios@",
+            "totalmente glorios@",
+            "excelente",
+            "sorprendente",
+        ],
+        [".", "..", "...", "!", "!!", "!!!"],
+    ]
